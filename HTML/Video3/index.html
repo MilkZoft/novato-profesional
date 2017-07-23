@@ -8,7 +8,11 @@
 
     <body>
         <p class="block">
-            Este es un elemento de bloque y <a href="http://codejobs.biz" target="_blank" class="line">este enlace es un elemento de línea</a>
+            Este es un elemento de bloque y <a class="line" href="http://codejobs.biz">este enlace es un elemento de línea</a>
+        </p>
+
+        <p class="block">
+            Este es un elemento de bloque y <span class="line">este enlace es un elemento de línea</span>
         </p>
 
         <h2>Elementos de bloque</h2>
@@ -22,7 +26,7 @@
             <li>ul/ol</li>
         </ul>
 
-        <h2>Elementos de línea</h2>
+        <h2>Elemento de línea</h2>
 
         <ul>
             <li>span</li>
@@ -34,25 +38,33 @@
         <h2>Imágenes</h2>
 
         <p>
-            <img class="image" src="images/curso.png" alt="De Novato a Desarrollador Web Profesional" />
+            <img class="image" alt="curso.png" src="images/curso.png" />
         </p>
 
-        <h2>ID vs Class</h2>
+        <h2>Id vs Classes</h2>
 
         <p id="one">
             Este id es único y en CSS se escribe <span class="highlight">#one</span>
         </p>
 
         <p class="color-blue">
-            Esta es una clase que se puede repetir y se escribe .color-blue
+            Esta es una clase y se puede repetir N veces.
+        </p>
+
+        <p class="color-blue">
+            Esta es una clase y se puede repetir N veces.
         </p>
 
         <p id="two" class="color-blue">
-            ¿Cómo harías para mostrar el color azul en este elemento?
+            Este elemento sea rojo?
+        </p>
+
+        <p class="color-blue color-red">
+            Este elemento sea rojo?
         </p>
 
         <p>
-            <img src="images/preguntas.png" alt="Preguntas" />
+            <img class="image" alt="Preguntas" src="images/preguntas.png" />
         </p>
     </body>
 </html>
