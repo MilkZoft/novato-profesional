@@ -1,0 +1,31 @@
+body {
+	background-color: #CCC;
+}
+
+.block {
+	border: 1px solid blue;
+}
+
+.line {
+	border: 1px solid red;
+}
+
+.image {
+	width: 50%;
+}
+
+#one {
+	border: 1px solid green;
+}
+
+#one .highlight {
+	color: yellow;
+}
+
+.color-blue {
+	color: blue;
+}
+
+#two {
+	color: red;
+}
