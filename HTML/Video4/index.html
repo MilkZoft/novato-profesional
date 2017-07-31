@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf8" />
+        <title>Formularios</title>
+        <link href="css/style.css" rel="stylesheet" />
+    </head>
+
+    <body>
+        <form action="http://localhost/get.php" method="get">
+            <div class="main">
+                <h1>Registro de Candidato</h1>
+            </div>
+
+            <div class="name">
+                <label for="name">Nombre:</label> 
+                <input id="name" name="name" type="text" />
+            </div>
+
+            <div class="lastName">
+                <label for="lastName">Apellido:</label> 
+                <input id="lastName" name="lastName" type="text" />
+            </div>
+
+            <div class="email">
+                <label for="email">Email:</label> 
+                <input id="email" name="email" type="email" placeholder="yourname@yourcompany.com" />
+            </div>
+
+            <div class="password">
+                <label for="password">Contraseña:</label> 
+                <input id="password" name="password" type="password" />
+            </div>
+
+            <div class="phone">
+                <label for="phone">Teléfono:</label> 
+                <input name="phone" type="phone" placeholder="+1 XXX-XXX-XXXX" />
+            </div>
+
+            <div class="gender">
+                <strong>Género:</strong> <br />
+                <input id="male" name="gender" type="radio" value="H" /> <label for="male">Hombre</label>
+                <input id="female" name="gender" type="radio" value="M" /> <label for="female">Mujer</label>
+            </div>
+
+            <div class="country">
+                <label for="country">País:</label> <br />
+
+                <select id="country" name="country" size="1">
+                    <option value="mx">México</option>
+                    <option value="usa" selected>USA</option>
+                    <option value="can">Canadá</option>
+                </select>
+            </div>
+
+            <div class="experiencie">
+                <label for="experience">Experiencia:</label> <br />
+
+                <textarea id="experience"></textarea>
+            </div>
+
+            <div class="technologies">
+                Tecnologías: <br />
+                <input name="technologies[]" type="checkbox" value="React" checked /> React.js <br />
+                <input name="technologies[]" type="checkbox" value="Angular" checked /> Angular.js <br />
+                <input name="technologies[]" type="checkbox" value="PHP" /> PHP <br />
+                <input name="technologies[]" type="checkbox" value="Java" /> Java <br />
+            </div>
+
+            <input name="register" type="submit" value="Registrar Candidato" />
+        </form>
+    </body>
+</html>

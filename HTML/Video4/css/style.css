@@ -1,0 +1,34 @@
+body {
+	background-color: #CCC;
+	font-family: Arial, Verdana, sans-serif;
+}
+
+form {
+	background-color: #fff;
+	border: 1px solid #444;
+	margin: 0 auto;
+	padding: 20px;
+	width: 600px;
+}
+
+h1 {
+	margin: 0;
+}
+
+div {
+	padding: 10px;
+}
+
+label {
+	font-weight: bold;
+}
+
+label[for=male],
+label[for=female] {
+	font-weight: lighter;
+}
+
+textarea {
+	height: 140px;
+	width: 300px;
+}
