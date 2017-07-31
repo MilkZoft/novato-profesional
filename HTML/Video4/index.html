@@ -9,65 +9,72 @@
     <body>
         <form action="http://localhost/get.php" method="get">
             <div class="main">
-                <h1>Registro de Candidato</h1>
+                <h1>Registro de Candidatos</h1>
             </div>
 
             <div class="name">
-                <label for="name">Nombre:</label> 
+                <label for="name">Nombre:</label>
                 <input id="name" name="name" type="text" />
             </div>
 
             <div class="lastName">
-                <label for="lastName">Apellido:</label> 
+                <label for="lastName">Apellido:</label>
                 <input id="lastName" name="lastName" type="text" />
             </div>
 
             <div class="email">
-                <label for="email">Email:</label> 
-                <input id="email" name="email" type="email" placeholder="yourname@yourcompany.com" />
+                <label for="email">Email:</label>
+                <input id="email" name="email" type="email" placeholder="tunombre@tudominio.com" />
             </div>
 
             <div class="password">
-                <label for="password">Contraseña:</label> 
+                <label for="password">Contraseña:</label>
                 <input id="password" name="password" type="password" />
             </div>
 
             <div class="phone">
-                <label for="phone">Teléfono:</label> 
-                <input name="phone" type="tel" placeholder="XXX-XXX-XXXX" />
+                <label for="phone">Teléfono:</label>
+                <input id="phone" name="phone" type="tel" />
             </div>
 
             <div class="gender">
                 <strong>Género:</strong> <br />
-                <input id="male" name="gender" type="radio" value="H" /> <label for="male">Hombre</label>
+                <input id="male" name="gender" type="radio" value="H" checked /> <label for="male">Hombre</label>
                 <input id="female" name="gender" type="radio" value="M" /> <label for="female">Mujer</label>
             </div>
 
             <div class="country">
-                <label for="country">País:</label> <br />
+                <label for="country">País</label> <br />
 
-                <select id="country" name="country" size="1">
+                <select id="country" name="country">
                     <option value="mx">México</option>
-                    <option value="usa" selected>USA</option>
-                    <option value="can">Canadá</option>
+                    <option value="us" selected>USA</option>
+                    <option value="ca">Canadá</option>
                 </select>
             </div>
 
-            <div class="experiencie">
-                <label for="experience">Experiencia:</label> <br />
+            <div class="experience">
+                <label for="experience">Experiencia</label> <br />
 
-                <textarea id="experience"></textarea>
+                <textarea id="experience" name="experience"></textarea>
             </div>
 
             <div class="technologies">
-                Tecnologías: <br />
-                <input name="technologies[]" type="checkbox" value="React" checked /> React.js <br />
-                <input name="technologies[]" type="checkbox" value="Angular" checked /> Angular.js <br />
-                <input name="technologies[]" type="checkbox" value="PHP" /> PHP <br />
-                <input name="technologies[]" type="checkbox" value="Java" /> Java <br />
+                <strong>Tecnologías:</strong> <br />
+
+                <input id="react" name="technologies[]" type="checkbox" value="React" checked /> 
+                <label for="react">React.js</label> <br />
+                <input id="angular" name="technologies[]" type="checkbox" value="Angular" /> 
+                <label for="angular">Angular.js</label> <br />
+                <input id="node" name="technologies[]" type="checkbox" value="Node" checked /> 
+                <label for="node">Node.js</label> <br />
+                <input id="jquery" name="technologies[]" type="checkbox" value="jQuery" /> 
+                <label for="jquery">jQuery</label>
             </div>
 
-            <input name="register" type="submit" value="Registrar Candidato" />
+            <div class="submit">
+                <input name="register" type="submit" value="Registrar Candidato" />
+            </div>
         </form>
     </body>
 </html>

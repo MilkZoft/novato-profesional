@@ -5,10 +5,10 @@ body {
 
 form {
 	background-color: #fff;
-	border: 1px solid #444;
+	border: 1px solid #333;
 	margin: 0 auto;
 	padding: 20px;
-	width: 600px;
+	width: 90%;
 }
 
 h1 {
@@ -20,12 +20,16 @@ div {
 }
 
 label {
-	font-weight: bold;
+	font-weight: 600;
 }
 
-label[for=male],
-label[for=female] {
-	font-weight: lighter;
+label[for="male"],
+label[for="female"],
+label[for="angular"],
+label[for="react"],
+label[for="node"],
+label[for="jquery"] {
+	font-weight: 100;
 }
 
 textarea {
