@@ -1,0 +1,38 @@
+body {
+	background-color: #CCC;
+	font-family: Arial, Verdana, sans-serif;
+}
+
+.container {
+	border: 1px solid red;
+}
+
+.clearfix {
+	clear: both;
+}
+
+.box {
+	width: 200px;
+}
+
+.box1 {
+	background-color: green;
+	float: right;
+}
+
+.box2 {
+	background-color: orange;
+	float: right;
+}
+
+.box3 {
+	background-color: yellow;
+	border: 1px solid red;
+	float: right;
+}
+
+img {
+	float: left;
+	padding-right: 10px;
+	width: 200px;
+}
