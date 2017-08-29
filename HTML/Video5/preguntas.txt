@@ -1,0 +1,5 @@
+1. ¿De qué manera podrías implementar el clearfix usando el pseudo elemento :after?
+2. ¿Qué diferencia existe entre position: absolute y position: relative?
+3. ¿Qué es flexbox y que navegadores lo soportan?
+4. ¿De qué manera puedes añadir fuentes nuevas a tu sitio (Sin usar Google Fonts)?
+5. ¿Se pueden usar variables en CSS? ¿Cómo?

@@ -5,34 +5,54 @@ body {
 
 .container {
 	border: 1px solid red;
+	margin: 0 auto;
+	width: 960px;
 }
 
 .clearfix {
-	clear: both;
+	overflow: auto;
 }
 
-.box {
+/*.box {
+	height: 200px;
 	width: 200px;
-}
+}*/
 
-.box1 {
+.header {
 	background-color: green;
-	float: right;
-}
-
-.box2 {
-	background-color: orange;
-	float: right;
-}
-
-.box3 {
-	background-color: yellow;
-	border: 1px solid red;
-	float: right;
-}
-
-img {
 	float: left;
+	height: 200px;
+	width: 100%;
+}
+
+.content {
+	background-color: orange;
+	float: left;
+	width: 70%;
+}
+
+.sidebar {
+	background-color: blue;
+	float: right;
+	width: 25%;
+}
+
+.footer {
+	background-color: brown;
+	float: left;
+	text-align: center;
+	width: 100%;
+}
+
+/* Index2.html */
+img.left {
+	float: left;
+	width: 250px;
 	padding-right: 10px;
-	width: 200px;
+}
+
+img.right {
+	float: right;
+	width: 250px;
+	padding-left: 10px;
 }
